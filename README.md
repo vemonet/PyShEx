@@ -52,6 +52,16 @@ pip install git+https://github.com/rdflib/rdflib
 ```
 Unfortunately, however, `rdflib-jsonld` is NOT compatible with the bleeding edge rdflib, so you can't use a json-ld parser in this situation.
 
+## Docker
+### Build
+```
+docker build -t pyshex .
+```
+### Run
+```
+docker run -i --rm pyshex
+```
+
 ## shexeval CLI
 ```bash
 > shexeval -h
