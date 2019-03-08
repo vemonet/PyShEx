@@ -55,11 +55,11 @@ Unfortunately, however, `rdflib-jsonld` is NOT compatible with the bleeding edge
 ## Docker
 ### Build
 ```
-docker build -t pyshex .
+docker build -t shexeval .
 ```
 ### Run
 ```
-docker run -i --rm pyshex
+docker run -i --rm shexeval
 ```
 
 ## shexeval CLI
